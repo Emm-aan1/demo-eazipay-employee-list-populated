@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  width: 35vw;
+  margin: 0 auto;
+}
+
+.employee {
+  position: relative;
+}
+
+.add-icon {
+  width: 8.5em;
+  position: absolute;
+  bottom: -75%;
+  right: 31%;
+}
+
+@media screen and (max-width: 900px) {
+  * {
+    width: 90vw;
+  }
+
+  .add-icon {
+    width: 7.5em;
+    bottom: -59%;
+    right: 1%;
+  }
+}
